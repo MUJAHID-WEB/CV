@@ -1,0 +1,512 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {}
+
+.wrapper_full {
+    width: 100%;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+ font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+    color: #2d3950;
+}
+
+h3 {
+    font-weight: 400;
+    text-align: center;
+    color: #2d3950;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+     color: #999999;
+    text-align: center;
+}
+
+
+/* header part start */
+
+.header_part {
+    background: #000;
+    
+}
+
+.header {
+      width: 900px;
+    height: 100px;
+    float: left;
+     
+}
+
+.header i {
+    font-size: 20px;
+    color: #a8a6a6;
+     float: right;
+    margin: 10px;
+    line-height: 140px;
+    
+}
+
+.blank{
+    width: 60px;
+    height: 100px;
+    float: left;
+  
+}
+
+
+/* header part end */
+
+
+/* profile part start */
+
+.profile_part{
+      background: #000;
+}
+
+.dl ,
+.bc ,
+.ph ,
+.rh ,
+.bb,
+.pb {
+    width: 60px;
+    height: 60px;
+    float: left; 
+   
+}
+.contacts p,
+.portfolio p,
+.dl a i,
+.bc a i,
+.resume p,
+.ph a i,
+.rh a i,
+.profile P,
+.bb a i,
+.pb a i {
+    width: 60px;
+     height: 60px;
+    background: #46a3f4;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    color: #fff;
+   
+}
+
+.profile{
+     width: 840px;
+    height: 380px;
+    float: left;
+     background: #3e3d3d;
+}
+
+.na,
+.pic {
+   width: 190px;
+    height: 180px;
+    float: left;
+    
+}
+
+.pic img {
+    width: 150px;
+    height: 140px;
+    margin: 20px;
+    background: #fff;
+}
+
+.na {
+     width: 270px;
+}
+
+.na h4,
+.na h3 {
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+   margin: 20px 0px 0px 0px;
+    font-size: 23px;
+}
+
+.na h4{
+    color: #0ff8e7;
+font-size: 18px;
+}
+
+.con {
+    
+}
+
+.head {
+     width: 100px;
+    height: 180px;
+    float: left;
+   
+}
+
+.det {
+     width: 280px;
+    height: 180px;
+    float: left;
+    
+}
+.det h6,
+.head h6 {
+    margin: 20px 0px;
+    color: #fff;
+    font-size: 15px;
+    text-align: right;
+    line-height: 1.5;
+}
+
+.det h6 {
+    color: #8e8d8d;
+    text-align: left;
+   
+}
+.contacts p,
+.portfolio p,
+.resume p,
+.profile P {
+   width: 160px;
+    border-left: 1px solid #fff;
+}
+
+.bb{
+  
+}
+
+.des{
+    width: 840px;
+    
+}
+
+.des h6 {
+    font-size: 13px;
+line-height: 1.5;
+   color: #8e8d8d;
+    padding: 20px;
+    
+}
+
+
+/* profile part end */
+
+
+/* resume part start */
+
+.resume_part {
+    background: #000;
+    height: 853px;
+}
+
+.resume {
+    border-top: 0.5px solid #bababa;
+       width: 840px;
+    height: 850px;
+    float: left;
+     background: #3e3d3d;
+    
+}
+
+.resume p {
+    
+}
+
+.eduskl {
+    
+}
+
+.edu {
+    width: 600px;
+    height: 150px;
+    float: left;
+    padding: 25px;
+    
+}
+
+.edu h4 {
+    font-size: 15px;
+   padding: 0px 10px 0px 0px;
+    background: #9f9e9e;
+    color: #fff;
+}
+
+.edu h4  i {
+    background: #46a3f4;
+    padding: 5px 10px 5px 10px;
+    
+    margin-right: 10px;
+}
+
+.edu h3 {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+    text-align: left;
+    margin-left: 15px;
+}
+
+.edu h5 {
+    font-size: 15px;
+    color: #a3a3a3;
+    
+   margin: 0px 0px 20px 35px;
+}
+
+.edu p {
+     font-size: 15px;
+    color: #a3a3a3;
+    width: 600px;
+    line-height: 1;
+    text-align: left;
+    background: #3e3d3d;
+     border-left: 1px solid #3e3d3d;
+    
+    
+}
+.skl {
+    width: 190px;
+    height: 200px;
+    float: left;
+    
+}
+
+
+/* resume part end */
+
+
+/* portfolio part start */
+
+.portfolio_part {
+    background: #000;
+    height: 681px;
+}
+
+.portfolio {
+     border-top: 0.5px solid #bababa;
+       width: 840px;
+    height: 680px;
+    float: left;
+     background: #3e3d3d;
+}
+
+.portfolio p {
+    margin-bottom: 30px;
+}
+
+.glry {
+    
+}
+
+.glryh {
+    padding-bottom: 20px;
+}
+
+.glryh a {
+    color: #969696;
+    font-size: 15px;
+    border: 1px solid #969696;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 2px;
+    
+   
+}
+
+.glryh a:hover {
+    color: #fff;
+    background: #46a3f4;
+    border: 1px solid #46a3f4;
+    
+}
+
+.glryp {
+    width: 410px;
+    height: 220px;
+    float: left;
+     
+}
+
+.glry_img {
+    position: relative;
+}
+
+.glry_img img {
+    width: 380px;
+    margin: 20px;
+    box-shadow: 0 0 30px #777777;
+    border-radius: 5px;
+    
+}
+
+.glry_overlay {
+    background: rgba(0, 0, 0, 0.6);
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.4s;
+   margin: 20px;
+    border-radius: 5px;
+}
+
+.glry_img:hover .glry_overlay{
+    height: 220px;
+      width: 380px;
+    opacity: 1;
+}
+
+/* portfolio part end */
+
+/* contacts part start */
+
+.contacts_part {
+     background: #000;
+    height: 750px;
+}
+
+.contacts {
+     border-top: 0.5px solid #bababa;
+       width: 840px;
+    height: 650px;
+    float: left;
+     background: #3e3d3d;
+}
+
+.contacts p {
+    margin-bottom: 30px;
+}
+
+.cont {
+    width: 600px;
+    height: 50px;
+    float: left;
+    padding: 10px 0px 10px 120px;
+    
+}
+
+.cont h4 {
+    font-size: 15px;
+   padding: 0px 10px 0px 0px;
+    background: #9f9e9e;
+    color: #fff;
+}
+
+.cont h4  i {
+    background: #46a3f4;
+    padding: 5px 10px 5px 10px;
+    
+    margin-right: 10px;
+}
+
+
+.form{
+    width: 600px;
+    margin:  0 auto;
+    padding: 0px 20px;
+}
+.input_text2,
+.input_text{
+    width:280px;
+    float: left;
+    margin: 0px 10px;
+}
+.input_text2{
+    width: 580px;
+}
+.input_text2 label,
+.input_text label{
+    color: #fff;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    display: block;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+.input_fld{
+    width: 95%;
+    background: transparent;
+    height: 35px;
+    border: 1px solid #fff;
+    padding-left: 5%;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: sans-serif;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.form::placeholder{
+    color: red;
+}
+.input_text2 .input_fld{
+    padding-left: 2.5%;
+     width: 97.5%;
+}
+.input_text2 textarea{
+    height: 150px;
+    resize: none;
+    line-height: 30px;
+}
+.btn_sb{
+    padding: 10px 20px;
+    display: inline-block;
+    background: #3e3d3d;
+    color: #9d9b9b;
+    border: 1px solid #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-radius: 10px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.btn_sb:hover{
+    color: #46a3f4;
+    background: #46a3f4;
+    
+}
+
+
+
+/* contacts part end */
+
+

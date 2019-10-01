@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+body {}
+
+.wrapper_full {
+    width: 100%;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+ font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: 400;
+    text-align: center;
+    color: #2d3950;
+}
+
+h3 {
+    font-weight: 400;
+    text-align: center;
+    color: #2d3950;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+     color: #999999;
+    text-align: center;
+}
+
+
+/* header part start */
+
+.header_part {
+    background: #000;
+    
+}
+
+.header {
+      width: 900px;
+    height: 140px;
+    float: left;
+     
+}
+
+.header i {
+    font-size: 20px;
+    color: #a8a6a6;
+     float: right;
+    margin: 10px;
+    line-height: 200px;
+    
+}
+
+.header i:hover{
+    color: #ebebeb;
+}
+
+.blank{
+    width: 60px;
+    height: 100px;
+    float: left;
+  
+}
+
+
+/* header part end */
+
+
+/* profile part start */
+
+.profile_part{
+      background: #000;
+}
+
+.dl ,
+.bc ,
+.ph ,
+.rh ,
+.bb,
+.pb {
+    width: 60px;
+    height: 60px;
+    float: left; 
+   
+}
+.contacts p,
+.portfolio p,
+.dl a i,
+.bc a i,
+.resume p,
+.ph a i,
+.rh a i,
+.profile P,
+.bb a i,
+.pb a i {
+    width: 60px;
+     height: 60px;
+    background: #46a3f4;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    color: #fff;
+   
+}
+
+
+
+.profile{
+     width: 840px;
+    height: 200px;
+    float: left;
+     background: #3e3d3d;
+}
+
+.na,
+.pic {
+   width: 190px;
+    height: 180px;
+    float: left;
+    
+}
+
+.pic img {
+    width: 150px;
+    height: 140px;
+    margin: 30px;
+    background: #fff;
+}
+
+.na {
+     width: 270px;
+}
+
+.na h4,
+.na h3 {
+    font-weight: bold;
+    color: #fff;
+    text-align: left;
+   margin: 30px 0px 0px 0px;
+    font-size: 23px;
+}
+
+.na h4{
+    color: #0ff8e7;
+font-size: 18px;
+}
+
+
+.contacts p,
+.portfolio p,
+.resume p,
+.profile P {
+   width: 160px;
+    border-left: 1px solid #fff;
+    color: #afaaaa;
+    background: #3e3d3d;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.bb{
+  
+}
+
+
+
+/* profile part end */
+
+
+/* resume part start */
+
+.resume_part {
+    background: #000;
+    height: 61px;
+}
+
+.resume {
+    border-top: 0.5px solid #bababa;
+       width: 840px;
+    height: 60px;
+    float: left;
+     background: #3e3d3d;
+    
+}
+
+.resume p {
+    
+}
+
+
+
+/* resume part end */
+
+
+/* portfolio part start */
+
+.portfolio_part {
+     background: #000;
+    height: 61px;
+}
+
+.portfolio {
+     border-top: 0.5px solid #bababa;
+       width: 840px;
+    height: 60px;
+    float: left;
+     background: #3e3d3d;
+}
+
+.portfolio p {
+    margin-bottom: 30px;
+}
+
+/* portfolio part end */
+
+/* contacts part start */
+
+.contacts_part {
+     background: #000;
+    height: 200px;
+}
+
+.contacts {
+     border-top: 0.5px solid #bababa;
+       width: 840px;
+    height: 60px;
+    float: left;
+     background: #3e3d3d;
+}
+
+.contacts p {
+    margin-bottom: 30px;
+}
+
+
+
+/* contacts part end */
+
+
